@@ -1,0 +1,65 @@
+{
+  "editor.formatOnPaste": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "workbench.colorTheme": "Oceanic Next Italic",
+  "editor.fontFamily": "FiraCode-Retina",
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+      "textMateRules": [
+          {
+              "scope": [
+                  "comment",
+                  "entity.name.type.class",
+                  "keyword",
+                  "constant",
+                  "storage.modifier",
+                  "storage.type.class.js",
+              ],
+              "settings": {
+                  "fontStyle": "italic"
+              }
+          },
+          {
+              "scope": [
+                  "invalid",
+                  "keyword.operator",
+                  "constant.numeric.css",
+                  "keyword.other.unit.px.css",
+                  "constant.numeric.decimal.js",
+                  "constant.numeric.json"
+              ],
+              "settings": {
+                  "fontStyle": ""
+              }
+          }
+      ]
+  },
+  "window.zoomLevel": 0,
+  "editor.fontWeight": "normal",
+  "python.pythonPath": "/usr/local/opt/python@3.9/bin/python3.9",
+  "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line",
+  "tabnine.experimentalAutoImports": true,
+  "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "emmet.includeLanguages": {
+      "html": "html",
+      "javascript": "javascriptreact"
+  },
+  "workbench.colorCustomizations": {
+      "editorCursor.foreground": "#ffff00",
+      "terminalCursor.foreground": "#00CCFF"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "json.schemas": [
+  
+  ],
+  "editor.cursorBlinking": "expand"
+}
